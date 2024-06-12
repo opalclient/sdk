@@ -1,2 +1,2 @@
 # sdk
-The Software Development Kit for custom Opal modules
+The Software Development Kit for Opal addons
