@@ -1,5 +1,7 @@
 package wtf.opal.sdk.render.font;
 
+import net.minecraft.client.gui.DrawContext;
+
 /**
  * Represents a font renderer.
  */

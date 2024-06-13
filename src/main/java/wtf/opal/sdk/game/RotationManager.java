@@ -1,7 +1,7 @@
 package wtf.opal.sdk.game;
 
-import wtf.opal.sdk.util.math.Vec2;
+import net.minecraft.util.math.Vec2f;
 
 public interface RotationManager {
-    void setRotation(final Vec2 rotation, final float yawSpeed, final float pitchSpeed);
+    void setRotation(final Vec2f rotation, final float yawSpeed, final float pitchSpeed);
 }
