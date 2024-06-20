@@ -1,8 +1,11 @@
-import wtf.opal.sdk.Opal;
+import net.minecraft.block.Block;
+import wtf.opal.sdk.OpalSDK;
 import wtf.opal.sdk.event.impl.InGameHudRenderEvent;
 import wtf.opal.sdk.module.Module;
 import wtf.opal.sdk.module.ModuleData;
 import wtf.opal.sdk.module.property.impl.NumberProperty;
+import wtf.opal.sdk.utils.player.InventoryUtil;
+import wtf.opal.sdk.utils.player.MoveUtil;
 
 // Default category is "Misc"
 @ModuleData(name = "test", description = "test")
@@ -18,7 +21,6 @@ public class Test extends Module {
 
     @Override
     public void onInGameHudRenderEvent(InGameHudRenderEvent event) {
-        //TODO: Find way to suppress null warnings
-        Opal.getFontRenderer().drawString(event.drawContext(), "Hello World!", 10, 10, 10, 0xFFFFFFFF);
+        OpalSDK.getFontRenderer().drawString(event.drawContext(), "Hello World!", 10, 10, 10, 0xFFFFFFFF);
     }
 }

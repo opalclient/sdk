@@ -1,4 +1,4 @@
-package wtf.opal.sdk.render.font;
+package wtf.opal.sdk.utils.render.font;
 
 import net.minecraft.client.gui.DrawContext;
 

@@ -4,7 +4,7 @@ import wtf.opal.sdk.module.property.Property;
 
 import java.util.HashMap;
 
-import static wtf.opal.sdk.Opal.mc;
+import static wtf.opal.sdk.OpalSDK.mc;
 
 public final class PositionProperty extends Property<HashMap<String, Float>> {
 

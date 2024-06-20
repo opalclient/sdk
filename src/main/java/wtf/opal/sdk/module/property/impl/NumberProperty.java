@@ -1,7 +1,7 @@
 package wtf.opal.sdk.module.property.impl;
 
 import wtf.opal.sdk.module.property.Property;
-import wtf.opal.sdk.utility.misc.MathUtility;
+import wtf.opal.sdk.utils.misc.MathUtil;
 
 public final class NumberProperty extends Property<Double> {
 
@@ -43,7 +43,7 @@ public final class NumberProperty extends Property<Double> {
     }
 
     public void setValueCustom(double value) {
-        value = MathUtility.clamp(value, minValue, maxValue);
+        value = MathUtil.clamp(value, minValue, maxValue);
         value = Math.round(value * (1 / increment)) / (1 / increment);
         setValue(value);
     }

@@ -1,6 +1,5 @@
 package wtf.opal.sdk.module.property.impl;
 
-import wtf.opal.sdk.Opal;
 import wtf.opal.sdk.module.property.Property;
 
 public final class ModeProperty<T extends Enum<T>> extends Property<T> {

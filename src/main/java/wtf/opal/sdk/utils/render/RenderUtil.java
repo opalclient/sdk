@@ -1,4 +1,4 @@
-package wtf.opal.sdk.render;
+package wtf.opal.sdk.utils.render;
 
 public class RenderUtil {
     /**

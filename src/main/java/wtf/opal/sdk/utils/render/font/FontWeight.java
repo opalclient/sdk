@@ -1,4 +1,4 @@
-package wtf.opal.sdk.render.font;
+package wtf.opal.sdk.utils.render.font;
 
 public enum FontWeight {
     REGULAR("Regular"),

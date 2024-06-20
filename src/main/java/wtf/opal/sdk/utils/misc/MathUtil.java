@@ -1,12 +1,12 @@
-package wtf.opal.sdk.utility.misc;
+package wtf.opal.sdk.utils.misc;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class MathUtility {
+public class MathUtil {
 
     public static float sqrt(float value) {
-        return (float)Math.sqrt((double)value);
+        return (float)Math.sqrt(value);
     }
 
     public static double clamp(double value, final double min, final double max) {
