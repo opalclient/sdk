@@ -11,7 +11,6 @@ version = "0.2-SNAPSHOT"
 repositories {
     mavenCentral()
     maven(url = "https://jitpack.io")
-
 }
 
 val minecraftVersion: String by project
@@ -34,17 +33,6 @@ java {
 }
 
 publishing {
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/opalclient/sdk")
-            credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
-            }
-        }
-    }
-
     publications {
         register<MavenPublication>("gpr") {
             from(components["java"])
